@@ -5,7 +5,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<RootNamespace>ShareInvest.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
-		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<PackageId>ShareInvest.$(AssemblyName)</PackageId>
 		<Title>BINANCE</Title>
 		<Authors>cyberprophet</Authors>
@@ -13,23 +13,12 @@
 		<Description>https://developers.binance.com/docs</Description>
 		<Copyright>Copyright ⓒ 2024, ShareInvest Corp.</Copyright>
 		<PackageProjectUrl>https://github.com/crypto-currency-by-exchange</PackageProjectUrl>
-		<PackageIcon>binance.png</PackageIcon>
+		<PackageIcon></PackageIcon>
 		<PackageTags>crypto,trading,api,share,binance</PackageTags>
-		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageLicenseFile></PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<Version>1.0.0.0</Version>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<None Include="..\..\..\Pictures\Icon\binance.png">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
-		<None Include="..\UPbit\LICENSE.txt">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
-	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\Crypto\Crypto.csproj" />
